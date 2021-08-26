@@ -1,0 +1,1071 @@
+*{
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+	/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 4px;
+	  background-color:#ff8c00;
+	  font-weight:bold;
+	  
+	  
+	  padding:0px;
+	  border: 10px solid transparent;
+	  border-image: url(border.png) 23% round; /*30 stretch*/
+	  
+    }
+	/*Texto Navbar*/
+	.navbar-inverse .navbar-nav>li>a {
+	   color: #000;
+	   margin-left:15px;
+	}
+	/*Logo*/
+	.navbar-inverse .navbar-brand {
+		margin-top:-2;
+	}
+	/*Marcação Navbar*/
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    border-radius: 6px;
+    background-color: #000;
+    width: auto;
+    height: auto;
+	}
+	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    border-radius: 6px;
+    background-color: #000;
+    width: auto;
+    height: auto;
+	}
+	/* Add a gray background color and some padding to the footer */
+    footer {
+      padding: 25px;
+	  background-color:#00bfff;
+	  border-radius:4px;
+	  width:100%;
+    }
+    
+	.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+	}
+
+	/* Hide the carousel text when the screen is less than 600 pixels wide */
+	@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+	}
+
+	.barra{
+	background-color:#00bfff;
+	height:60px;
+	padding-top:17px;
+	padding-left:10px;
+	border-radius:4px;
+}
+
+h1,h2,h3,h4{
+	margin-top:0px;
+	color:#000;
+	font-weight:bold;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+p{
+	font-size:17px;
+	color:#000;
+}
+.redes{
+	width:30px;
+	height:30px;
+	margin:5px;
+}
+.Predes{
+	margin-left:0px;
+	margin-top:5px;
+}
+.logo{
+	height:110px;
+	width:200px;
+	margin-top:-22px;
+	
+}
+
+#sobre{
+	height:160px;
+	width:260px;
+	position:absolute;
+	top:72px;
+	right:68px;
+	z-index:1;
+}
+#sobre1{
+	height:160px;
+	width:260px;
+	position:absolute;
+	top:77px;
+	right:64px;
+	z-index:1;
+
+}
+#sobre2{
+	height:160px;
+	width:245px;
+	position:absolute;
+	top:73px;
+	right:72px;
+	z-index:1;
+}
+.evento{
+	height:260px;
+	width:310px;
+	border-radius: 6px;
+	margin-top:121px;
+	margin-bottom:171px;
+	border-left: 20px solid #ff8c00;
+}
+
+.btn-default {
+    color: #000;
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-top: 8px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+	border:none;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+	margin-top:190px;
+	margin-bottom:120px;
+	margin-left:10px;
+	margin-right:10px;
+	border-left: 20px solid #ff8c00;
+}
+.wellX {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:10px;
+	margin-right:10px;
+	border-left: 20px solid #ff8c00;
+}
+#banner{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+    vertical-align: middle;
+}
+#dog{
+	height: 150px;
+    width: 150px;
+	float:right;
+	position:absolute;
+	bottom:-1216px;
+	right:5px;
+	z-index:2;
+}
+
+.img-rounded{
+	width:160px;
+	height:140px;
+}
+.pDogs{
+	margin-left:12px;
+}
+
+----Thais---
+/* Cadastro de Eventos */
+
+#cadastrar{
+	margin-left: 500px;
+	
+}
+
+#limpar{
+	margin-right: 139px;
+	
+}
+
+#foto {
+	    padding: 0px;
+	
+}
+
+.input[type=file] {
+    display: block;
+    padding: 100px;
+    margin: 100px;
+}
+
+.form-control{
+	
+	margin-bottom: 10px;
+	
+}
+
+#input{
+	width: 300px;
+
+}
+
+#barrinha{
+	width: 300px;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+#lupa{
+	position: absolute;
+	
+	left: 330px;
+	margin-top: -41px;
+}
+
+#cadastrar{
+	margin-top: 10px;
+	right: 412px;
+}
+
+.limpo{
+	margin-top: 10px;
+	margin-left: 388px;
+}
+
+.textinho{
+	width: 545px;
+	height: 60px;
+}
+
+----Thais---
+/* Tela de ONG */
+
+#input{
+	width: 600px;
+}
+
+.limpando{
+	margin-top: 10px;
+	margin-right: -143px;
+}
+
+----Thais---
+/* Tela de Contato */
+
+.pesquisa{
+	border-radius:8px;	
+}
+
+.botaoLimpaContato{
+	margin-left:440px;
+}
+
+
+
+#emailImg{
+	font-size: 15px;
+	margin-left: 400px;
+	font-weight: bold;
+}
+
+#telefone{
+	
+	font-size: 15px;
+	margin-left: -374px;
+	font-weight: bold;
+	
+}
+
+#celular{
+	
+	font-size: 15px;
+	margin-left: -190px;
+	font-weight: bold;
+
+}
+
+#celularImg{
+	
+	margin-left: -200px;
+	
+}
+
+#tabela{
+	
+	margin-left: -370px;
+	
+}
+
+#pets{
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+#assunto{
+	
+	margin-left: -297px;
+	
+}
+
+#nome, #email, #mensagem{
+	margin-left: 400px;
+	
+}
+
+.nomePessoa{
+	width: 295px;
+	border-radius: 10px;
+}
+
+.nomeAssunto{
+	width: 295px;
+	border-radius: 10px;
+}
+
+.nomeEmail{
+	width: 600px;
+	border-radius: 10px;
+}
+
+.mensagem{
+	width: 600px;
+	border-radius: 10px;
+}
+
+#limparCampos{
+	
+	position: absolute;
+	margin-left: 115px;
+	
+}
+
+#cadastrar{
+	
+	position: absolute;
+	margin-left: 220px;	
+	right: 360px;
+}
+
+.cadastrado{
+	float:left;
+	
+}
+
+.proximo{
+    float: right;
+    margin-top: -200px;
+    margin-right: 190px;
+    border-left: 1px solid black;
+    height: 300px;
+    /* margin-left: 455px; */
+    margin-bottom: 40px;
+}
+
+#limparCampo{
+	position: absolute;
+	margin-left: -65px;
+	
+}
+
+#emailLogin{
+	margin-left: 150px;
+	width: 295px;
+	border-radius: 10px;
+}
+
+#senhaLogin{
+	margin-left: 150px;
+	width: 295px;
+	border-radius: 10px;
+}
+
+#sim{
+	font-size: 18px;
+	margin-left: 196px;
+	margin-top: 45px;
+	margin-bottom: -35px;
+	font-weight: bold;
+}
+
+#nao{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 35px;
+	margin-top: 38px;
+	margin-right: -196px;
+
+}
+
+#msg{
+	font-size: 18px;
+	margin-right: -196px;
+	margin-top:55px;
+}
+
+.entrar{
+	width: 300px;
+	right: 905px;
+	margin-top: 30px;
+}
+
+.botao{
+	width: 295px;
+	margin-left: 820px;	
+	margin-top: -19px;
+}
+
+.frase{
+	font-size: 18px;
+	margin-right: 120px;
+	margin-top: -110px;
+}
+
+.botaoProximo{
+	margin-left:200px;
+	width: 295px;
+}
+
+/*----Thais-------------------------------------*/
+
+
+/* inara---Tela Ajudenos------------------------------*/
+.ajudenos{
+	width: 100px;
+	border-radius:4px;
+	margin-left:200px;
+}
+
+.ajudenos2{
+	width: 350px;
+	border-radius:4px;
+	margin-left:30px;
+}
+
+.areaTexto{
+	width: 400px;
+	border-radius:4px;
+}
+
+.paragrafos{
+	font-family: Arial;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#doacao{
+	border-radius:4px;
+	margin-left:200px;
+	height:30px;
+	margin-top:-25px;
+}
+
+.botaoLimparAjudenos{
+	margin-left:900px;
+}
+
+
+
+.instituicao{
+	width:500px;
+	margin-left:-500px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+
+.nome{
+	width:500px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+}
+
+.tel{
+	width:500px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+}
+
+.doar{
+	width:250px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+
+.quantidade{
+	width:230px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:-230px;
+}
+
+.sobrenomeEmail{
+	width:500px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+
+.desc{
+	width:1015px;
+	border-radius:4px;
+	border:solid 2px;
+	height:60px;
+	   
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:-1px;
+	margin-top:10px;
+	
+}
+
+.limpar{
+	margin-left:900px;
+	
+}
+
+.cadastrar{
+	margin-left:1030px;
+	margin-top:-57px;
+	
+}
+
+#abrigoAnimal{
+	width:200px;
+	height:200px;
+	margin-left:400px;
+	margin-top:30px;
+}
+
+#frada{
+	width:200px;
+	height:150px;
+	margin-top:-350px;
+	margin-left: 750px;
+}
+
+#abrigoAnimalParagrafo{
+	margin-left:430px;
+	margin-top:10px;
+	font-size:18px;
+	font-weight: bold;
+}
+
+#fradaParagrafo{
+	margin-top:-60px;
+	margin-left:840px;
+	font-size:18px;
+	font-weight: bold;
+	
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+/* ------------Inara Tela VerdaDadosUsuario -----------------*/
+
+.dadosUsuario{
+	border: 1px solid black;
+}
+
+.dadosEsquerda{
+	width:300px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.dadosDireita{
+	width:300px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.dadosDireitaBairro{
+	width:300px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#numero{
+	width:50px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+
+.emailUser{
+	width:400px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+}
+
+#labelNum{
+	margin-right:-50px;
+}
+
+.labelDireita{
+	margin-left:15px;
+}
+
+.labelEsquerda{
+	margin-right:10px;
+}
+
+.salva{
+	margin-left:945px;
+	margin-top:-210px;
+	width:130px;
+}
+
+.limpa{
+	width:150px;
+	margin-left:775px;
+	
+	margin-top:-165px;
+}
+/*-------------------------------------------------------------------------- */
+
+/*-------------------Inara FormCadastroCliente----------------*/
+
+.esquerda{
+	width:400px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.direita{
+	width:400px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#inputNum{
+	width:70px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:-70px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.direitaBairro{
+	width:310px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.inputEmail{
+	width:815px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:268px;
+}
+
+.botaoLimpa{
+	margin-left:872px;
+	
+}
+
+/*---------------------------------------------------*/
+
+/*inara FormCadastroAnimais */
+
+.inputEsquerda{
+	width:350px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.inputEsquerdaFotoAnimal{
+	width:350px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.inputEsquerdaNomeAnimal{
+	width:350px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.areaTexto{
+	width:720px;
+	border-radius:4px;
+	border:solid 2px;
+	height:60px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:320px;
+}
+
+.inputDireita{
+	width:350px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.inputDireitaIdadeAnimal{
+	width:170px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+
+
+.cadAnimais{
+	margin-left:10px;
+}
+
+.botaoCadAnimais{
+	
+}
+
+.botaoLimpaCadAnimais{
+	margin-left:830px;
+}
+
+/*---------------------inara FormAlteraEventos.php------------- */
+
+.dadosEsquerdaEventos{
+	width:300px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+	
+}
+
+.dadosEsquerdaEventosDesc{
+	width:700px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:120px;
+}
+
+.dadosDireitaEventos{
+	width:300px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-left:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+
+.dadosDescEvento{
+	width:725px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	
+	
+	margin-right:10px;
+	
+}
+
+#labelDesc{
+	margin-left:10px;
+	
+}
+
+.labelDireita{
+	margin-left:20px;
+}
+
+.limparAlteraEventos{
+	margin-left:780px;
+	width:170px;
+	margin-top:-210px;
+}
+
+.salvarAlteraEventos{
+	width:120px;
+	margin-top:-210px;
+}
+
+/*------------------------------------------------*/
+
+/*-------inara formAlteraOng---------------*/
+
+.dadosAlteraOng{
+	width:400px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+
+.limparAlteraOng{
+	margin-left:730px;
+}
+
+.labelAlteraOng{
+	margin-right:5px;
+}
+
+
+.alteraOng{
+	margin-top:-30px;
+}
+
+
+
+/*---------------Setas Evento--------------*/
+#setaDireita{
+	width:35px;
+	height:35px;
+	float:right;
+	margin-top:-308px;
+	margin-right:57px;
+}
+
+#setaEsquerda{
+	width:35px;
+	height:35px;
+	float:left;
+	margin-top:255px;
+	margin-left:55px;
+}
+
+
+/*---------------Selects das telas: adotaDogs/adotaCat----------*/
+.selecionar{
+	width:200px;
+	border-radius:4px;
+	border:solid 2px;
+	height:35px;
+	    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+	margin-bottom:10px;
+	margin-top:10px;
+	
+}
+
+.filtroAdocao{
+	margin-left:10px;
+	margin-bottom:10px;
+}
