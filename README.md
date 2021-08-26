@@ -1,5 +1,5 @@
 # projeto_tcc
-Projeto TCC Senai - Site para ajuda de divulgação de animais para adoção.
+Projeto TCC - Site para ajuda de divulgação de animais para adoção.
 <br>-Utilizado HTML, CSS, PHP e JavaScript.
 <br>-CSS utilizado o Framework Bootstrap.
 <br>-Banco de Dados MySQL, utilizado o gerenciador PHPmyadmin.
